@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="A simple love page to express my feelings.">
+     <meta name="keywords" content="love, affection, feelings, romance">
+     <meta name="author" content="Mark Gian Abejero">
+
+     <link rel="stylesheet" href="love.css">
+     <link rel="stylesheet" href="splash-screen.css">
+     <title>Love ❤️</title>
+ </head>
+
+ <body>
+     <div class="heart-container">
+         <div class="heart">
+         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+             <path 
+                 class="heart-fill" 
+                 d="M50,30 C35,10 10,20 10,40 C10,60 30,70 50,90 C70,70 90,60 90,40 C90,20 65,10 50,30 Z"
+             />
+            
+             <path 
+                 class="heart-path" 
+                 d="M50,30 C35,10 10,20 10,40 C10,60 30,70 50,90 C70,70 90,60 90,40 C90,20 65,10 50,30 Z"
+             />
+         </svg>
+         
+         <div class="loading-complete">Love 💗</div>
+       
+         </div>
+             <div class="progress-container">
+                 Loading: <span id="progress">0</span>%
+             </div>
+     </div>
+
+    
+     <div class="background">
+         <div class="hearts"></div>
+
+         <div class="container" id="mainContainer">
+             <h1>Hi, Love! ❤️</h1>
+             <div class="message">Love mo rin ba ko?</div>
+             <div class="buttons">
+                 <button id="yesBtn">Yes</button>
+                 <button id="noBtn">No</button>
+             </div>
+
+         <div class="success-message" id="successMessage">
+                  I love you too! ❤️
+             <div class="image-container">
+                 <img src="love.gif" alt="Love" />
+             </div>
+         </div>
+         </div>
+     </div>
+ </body>
+
+     <script src="love.js"></script>
+     <script src="splashscreen.js"></script>
+
+ </html>
